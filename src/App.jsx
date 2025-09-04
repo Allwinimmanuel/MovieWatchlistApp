@@ -1,14 +1,7 @@
 import { useState } from "react";
 
 function App() {
-  const [movies, setMovies] = useState([
-    "Inception",
-    "The Dark Knight",
-    "Interstellar",
-    "Avengers: Endgame",
-    "Spider-Man: No Way Home"
-  ]);
-
+  const [movies, setMovies] = useState(["Inception", "Interstellar"]);
   const [newMovie, setNewMovie] = useState("");
 
   const addMovie = () => {
@@ -19,7 +12,7 @@ function App() {
   };
 
   return (
-    <div style={{ textAlign: "center", padding: "20px", fontFamily: "Arial" }}>
+    <div style={{ textAlign: "center", padding: "20px", fontFamily: "Arial", background: "#ffffff" }}>
       <h1>🎬 Movie Watchlist</h1>
       <input
         type="text"
