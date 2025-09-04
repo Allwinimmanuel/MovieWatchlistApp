@@ -6,7 +6,7 @@ function App() {
     "The Dark Knight",
     "Interstellar",
     "Avengers: Endgame",
-    "Spider-Man: No Way Home",
+    "Spider-Man: No Way Home"
   ]);
 
   const [newMovie, setNewMovie] = useState("");
